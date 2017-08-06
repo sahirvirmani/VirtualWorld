@@ -8,6 +8,7 @@ public class CameraManager : MonoBehaviour {
 	public Camera earthCamera;
 	public Camera airCamera;
 	public Camera fireCamera;
+	public Camera defCamera;
 
 	public void Start() {
 		DisableCamera ();
@@ -19,6 +20,7 @@ public class CameraManager : MonoBehaviour {
 		earthCamera.enabled = false;
 		airCamera.enabled = false;
 		fireCamera.enabled = false;
+		defCamera.enabled = false;
 	}
 
 	void Update() {
@@ -27,24 +29,35 @@ public class CameraManager : MonoBehaviour {
 			fireCamera.enabled = false;
 			earthCamera.enabled = false;
 			airCamera.enabled = false;
+			defCamera.enabled = false;
 		}
 		if (Input.GetKeyDown (KeyCode.Alpha2)) {
 			waterCamera.enabled = false;
 			fireCamera.enabled = true;
 			earthCamera.enabled = false;
 			airCamera.enabled = false;
+			defCamera.enabled = false;
 		}
 		if (Input.GetKeyDown (KeyCode.Alpha3)) {
 			waterCamera.enabled = false;
 			fireCamera.enabled = false;
 			earthCamera.enabled = true;
 			airCamera.enabled = false;
+			defCamera.enabled = false;
 		}
 		if (Input.GetKeyDown (KeyCode.Alpha4)) {
 			waterCamera.enabled = false;
 			fireCamera.enabled = false;
 			earthCamera.enabled = false;
 			airCamera.enabled = true;
+			defCamera.enabled = false;
+		}
+		if (Input.GetKeyDown (KeyCode.Alpha5)) {
+			waterCamera.enabled = false;
+			fireCamera.enabled = false;
+			earthCamera.enabled = false;
+			airCamera.enabled = false;
+			defCamera.enabled = true;
 		}
 	}
 }
