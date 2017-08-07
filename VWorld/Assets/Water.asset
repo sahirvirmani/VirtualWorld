@@ -69,7 +69,7 @@ MonoBehaviour:
       screenEdgeMask:
         intensity: 0.03
   depthOfField:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       focusDistance: 10
       aperture: 5.6
@@ -132,15 +132,15 @@ MonoBehaviour:
         blue: {x: 0, y: 0, z: 1}
         currentEditingChannel: 0
       colorWheels:
-        mode: 1
+        mode: 0
         log:
           slope: {r: 0.93471724, g: 1, b: 0.9958501, a: 0}
           power: {r: 0.9447284, g: 0.9585463, b: 1, a: 0}
           offset: {r: 0.91939676, g: 1, b: 0.9164694, a: 0}
         linear:
-          lift: {r: 1, g: 1, b: 1, a: 0}
-          gamma: {r: 1, g: 1, b: 1, a: 0}
-          gain: {r: 1, g: 1, b: 1, a: 0}
+          lift: {r: 0.9062574, g: 0.9790759, b: 1, a: 0}
+          gamma: {r: 1, g: 0.9632385, b: 0.92403674, a: 0}
+          gain: {r: 1, g: 0.8061454, b: 0.62882084, a: 0}
       curves:
         master:
           curve:
