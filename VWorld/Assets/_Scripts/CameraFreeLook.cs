@@ -9,7 +9,7 @@ public class CameraFreeLook : MonoBehaviour {
 	public float speedMultiplier = 1;
 
 	void Start() {
-		//Cursor.lockState = CursorLockMode.Locked;
+		Cursor.lockState = CursorLockMode.Locked;
 	}
 		
 	// Update is called once per frame
