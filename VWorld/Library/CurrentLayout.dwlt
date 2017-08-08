@@ -427,19 +427,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/_Models/Earth/Rocks
+    - Assets/_Models/Earth
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Models/Earth/Rocks
+  - Assets/_Models/Earth
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Sahir\Documents\GitHub\VirtualWorld\VWorld
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: 70370000
-    m_LastClickedID: 14192
-    m_ExpandedIDs: 000000002826000062260000cc260000fe26000018270000762700000c280000062900002a290000522900009c290000462a0000522a0000902a00009e2a0000b42a0000342b0000322c0000462c0000902c0000d82c00006e2d0000d22d0000d82d0000183100001a31000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 111}
+    m_SelectedIDs: a42a0000
+    m_LastClickedID: 10916
+    m_ExpandedIDs: 00000000302600006a260000d62600000827000022270000802700001628000012290000362900005e290000a82900005a2a0000662a0000a42a0000b22a0000da2a00005c2b0000642c0000782c0000c22c00000a2d0000a22d00000a2e0000102e00007e3100008031000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -467,7 +467,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002826000062260000cc260000fe26000018270000762700000c280000062900002a290000522900009c290000462a0000522a00009e2a0000b42a0000342b0000322c0000462c0000902c0000d82c00006e2d0000d22d0000d82d0000183100001a310000
+    m_ExpandedIDs: 00000000302600006a260000d62600000827000022270000802700001628000012290000362900005e290000a82900005a2a0000662a0000a42a0000b22a0000da2a00005c2b0000642c0000782c0000c22c00000a2d0000a22d00000a2e0000102e00007e31000080310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -583,9 +583,9 @@ MonoBehaviour:
     height: 399
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 9acbffff84fbffff00000000be2e0000d22e00001c2f0000462f0000b02f0000de2f00001430000030300000
+    m_SelectedIDs: 30f5ffff
+    m_LastClickedID: -2768
+    m_ExpandedIDs: 4cfaffff00000000b42f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -635,14 +635,14 @@ MonoBehaviour:
     width: 941
     height: 399
   m_SceneLighting: 1
-  lastFramingTime: 1759.1908930252607
+  lastFramingTime: 33.370310308759876
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.8922202, y: 9.566757, z: 2.291856}
+    m_Target: {x: -20.618605, y: 7.7587433, z: -34.540356}
     speed: 2
-    m_Value: {x: 0.8922202, y: 9.566757, z: 2.291856}
+    m_Value: {x: -20.618605, y: 7.7587433, z: -34.540356}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -665,13 +665,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.1329763, y: -0.6806923, z: 0.12767115, w: 0.708996}
+    m_Target: {x: 0.06975132, y: 0.6048311, z: -0.053300712, w: 0.7915006}
     speed: 2
-    m_Value: {x: 0.1329763, y: -0.6806923, z: 0.12767115, w: 0.708996}
+    m_Value: {x: 0.06975132, y: 0.6048311, z: -0.053300712, w: 0.7915006}
   m_Size:
-    m_Target: 106.641815
+    m_Target: 26.650175
     speed: 2
-    m_Value: 106.641815
+    m_Value: 26.650175
   m_Ortho:
     m_Target: 0
     speed: 2
