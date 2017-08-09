@@ -15,7 +15,7 @@ public class FloatingRocks : MonoBehaviour {
 	void Update() {
 		posY = Mathf.Sin (Time.time);
 		transform.position = new Vector3 (transform.position.x, (height + (posY * randomness * 1.5f)), transform.position.z);
-		Debug.Log (posY);
+		//Debug.Log (posY);
 	}
 
 }
